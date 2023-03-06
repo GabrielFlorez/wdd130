@@ -80,6 +80,7 @@ footer {
   color: #000;
 }
 
+/* add a class called indent next to the box in the ul in case you wanted it to look better
 .indent {
   padding-left: 2rem;
-}
+} */
