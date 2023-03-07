@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #0f4458;
+    --secondary-color: #A0C4E2;
+    --accent1-color: #AED1E6;
+    --accent2-color: #C6DBF0;
+
+    font-family: 'Montserrat', sans-serif;
+
+    --nav-background-color: #85C7DE;
+    --nav-link-color: #A0C4E2;
+    --nav-hover-link-color: #AED1E6;
+    --nav-hover-background-color: #C6DBF0;
+}
+
+header img {
+    text-align: left;
+}
+
+body {
+    width: 95%;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.hero {
+    width: relative;
+    position: absolute;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
