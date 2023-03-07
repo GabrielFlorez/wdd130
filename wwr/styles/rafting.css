@@ -18,7 +18,7 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    /* centers the page horizontally */
+    
 }
 
 .hero {
@@ -30,9 +30,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    /* sets the width of the image to 100% of the parent container */
-    height: auto;
-    /* preserves the aspect ratio of the image */
+ 
+   
 }
 
 h1 {
