@@ -63,7 +63,6 @@ header {
     grid-template-columns: auto 1fr;
     background-color: var(--nav-hover-background-color);
     border: solid 1rem var(--primary-color);
-    ;
     color: black;
 }
 
