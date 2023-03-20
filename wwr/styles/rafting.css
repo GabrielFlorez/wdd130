@@ -26,12 +26,16 @@ body {
 }
 
 .hero img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+}
 
+.hero article img {
+    width: 200px;
+    float: right;
+}
 
+.hero article {
+    position: absolute;
 }
 
 h1 {
@@ -81,15 +85,6 @@ nav a {
 
 }
 
-.hero {
-    width: 50px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    opacity: 0, 1;
-
-}
-
 article {
     justify-content: left;
 }
@@ -99,12 +94,6 @@ article img {
     height: auto;
 }
 
-article p {
-    justify-content: left;
-    margin: 10px;
-    text-align: justify;
-    border: solid 1px black;
-}
 
 
 /* Modified */
