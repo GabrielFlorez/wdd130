@@ -223,7 +223,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.8)
 }
 
 input[type="checkbox"] {
