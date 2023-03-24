@@ -242,7 +242,7 @@ main {
 }
 
 /* Style for the headings */
-h2, h3 {
+h1  {
     margin: 0;
     padding: 10px;
     font-size: 2em;
@@ -255,9 +255,9 @@ h2, h3 {
     box-shadow: 0 0 10px var(--accent1-color);
 }
 
-main h3 {
+/* main {
     font-size: 1.5em;
-}
+} */
 
 /* Style for the paragraphs */
 main p {
