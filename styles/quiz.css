@@ -1,4 +1,4 @@
-/* Set box-sizing property to border-box for all elements */
+
 * {
     box-sizing: border-box;
 }
@@ -7,14 +7,14 @@ h1 {
     color: #45a049;
 }
 
-/* Style form labels */
+
 label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-/* Style form inputs and select */
+
 input[type="text"],
 input[type="number"],
 textarea,
@@ -27,7 +27,7 @@ select {
     font-size: 16px;
 }
 
-/* Style form button */
+
 button[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -37,7 +37,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-/* Add hover effect to form button */
+
 button[type="submit"]:hover {
     background-color: #45a049;
 }
