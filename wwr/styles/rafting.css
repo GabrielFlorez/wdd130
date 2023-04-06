@@ -311,3 +311,220 @@ main p {
     font-weight: bold;
     color: var(--primary-color);
 }
+
+
+/* Style the main container */
+.trip {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px;
+}
+
+/* Style the headings */
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+/* Style the paragraph text */
+p {
+    font-family: var(--paragraph-font);
+    /* color: var(--secondary-color); */
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+button {
+    background-color: var(--accent1-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+/* Style the trip sections */
+.trip img {
+    display: block;
+    margin: 0 auto;
+}
+
+.trip h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.trip p {
+    font-size: 16px;
+}
+
+/* Style the trip information table */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: left;
+}
+
+th:first-child {
+    border-top-left-radius: 5px;
+}
+
+th:last-child {
+    border-top-right-radius: 5px;
+}
+
+td {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 10px;
+}
+
+td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.container {
+    grid-column: 2 / span 10;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-top: 0%;
+    margin-left: auto;
+}
+
+.newsletter {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter input[type="submit"] {
+    margin-top: 0.5rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.cta {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta a:hover {
+    background-color: var(--accent1-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+.item {
+    grid-column: span 6;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.item h2 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.item p {
+    text-align: left;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
